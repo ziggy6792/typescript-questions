@@ -7,8 +7,8 @@ const sortObjByName = (dataObj = [] as any[]) => {
   return sortedData;
 };
 
+// Question 3
 export const question3 = () => {
-  // Question 3
   // const myList = [
   //   { name: 'simon', age: 30 },
   //   { name: 'ben', age: 31 },
