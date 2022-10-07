@@ -10,8 +10,8 @@
     "test": "jest",
     "update": "npx ncu -u && yarn install",
     "build": "npx ttsc --p ./tsconfig.json",
-    "start": "node dist/index.js",
-    "dev": "yarn nodemon",
+    "start:build": "node dist/index.js",
+    "start": "yarn nodemon",
     "start:ts:node": "ts-node -r tsconfig-paths/register src/index.ts"
   },
   "author": "Simon Verhoeven",
